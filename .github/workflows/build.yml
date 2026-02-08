@@ -1,6 +1,8 @@
 name: CI for Neo ECO AE Extension
 
 on:
+   workflow_dispatch:
+   
   push:
     paths:
       - .github/workflows/**
